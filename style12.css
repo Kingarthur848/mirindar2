@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#page1{
+    height: auto;
+    width: auto;
+    background-color: #C4BCB2;
+    position: relative;
+    
+}
+
+#nav{
+    
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+    padding: 0 10px;
+}
+
+#nav>h5{
+    font-size: 15px;
+    width: 33%;
+    font-weight: 100;
+}
+
+#nav>img{
+    width: 10%;
+}
+
+#nav>i{
+    width: 33%;
+    text-align: right;
+}
+
+#box-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+
+}
+
+#box1{
+    width: 33%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+#box1>#img1{
+    width: 95%;
+    height: 60%;
+    overflow: hidden;
+    background-color: aqua;
+    
+    
+}
+
+#box1>h3{
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+#box1>h6{
+    position: absolute;
+    left: 20px;
+    width: 30%;
+}
+
+#img1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s all ease-in;
+}
+
+#img1:hover img{
+    scale: 1.2;
+}
+
+#box2{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
+#box2>h3{
+    font-size: 50px;
+
+}
+
+#box2>h5,h4{
+    padding: 0 50px;
+   font-size:    15px;
+
+}
+#box3{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+#box3>h3,h6{
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+
+#box3>#img2{
+    width: 95%;
+    height: 60%;
+    overflow: hidden;
+    margin-left: 22px;
+}
+
+#img2>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 2s;
+}
+
+#img2:hover img{
+    scale: 1.2;
+}
+
+#miranda{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 260px;
+    text-transform: capitalize;
+    overflow: hidden;
+    color: #C4BCB2;
+    padding: 0 0;
+    font-family: canopee;
+    font-weight: 100;
+    
+    
+    
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    
+    position: absolute;
+    display: flex;
+
+}
+
+#leftside{
+    width: 30%;
+    height: 100%;
+    color: white;
+    padding: 0 20px;
+
+}
+
+#leftside>p{
+    font-size: 100px;
+    margin: 0px;
+    color: black;
+    font-family: var(--font1);
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+:root{
+    --font1:"canopee";
+}
+
+#leftside>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#rightside{
+    position: relative;
+    width: 70%;
+    height: 100%;
+   
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+#rightside>p{
+    font-size: 50px;
+    width: 50%;
+    padding: 0 30px;
+}
+
+#rightside>img{
+    
+    width: 85%;
+    object-fit: cover;
+    
+
+}
